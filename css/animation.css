@@ -1,0 +1,25 @@
+@keyframes slide1 {
+  0% {
+    transform: translate(-54vw);
+  }
+  100% {
+    transform: translate(42vw);
+  }
+}
+@keyframes slide2 {
+  0% {
+    transform: translate(-42vw);
+  }
+  100% {
+    transform: translate(55vw);
+  }
+}
+
+.img1 {
+  transform: translate(-54vw);
+  animation: slide1 2s 3s forwards;
+}
+.img2 {
+  transform: translate(-42vw);
+  animation: slide2 2s 3s forwards;
+}

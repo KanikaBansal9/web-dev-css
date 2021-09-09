@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Cardo", serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 90px;
+  padding: 0 23px;
+}
+.bgimage {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+nav ul {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.container {
+  min-height: calc(100vh - 60px - 12vh);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  height: 25px;
+  width: 30vw;
+  border-radius: 3px;
+  margin: 0 20px 0 60px;
+  padding: 0 5px;
+}
+.search button {
+  font-family: "Cardo", serif;
+}
+.bgimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.c2 {
+  background: rgb(227, 227, 238);
+  margin: 10px 30px;
+
+  height: 270px;
+  overflow: hidden;
+}
+.card {
+  max-width: 95vw;
+  margin: auto;
+}
+
+.card h3 {
+  font-family: "Cardo", serif;
+  margin: 10px 20px;
+
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.carditem img {
+  padding-top: 10px;
+}
+.carditem {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 0 20px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Cardo", serif;
+}
